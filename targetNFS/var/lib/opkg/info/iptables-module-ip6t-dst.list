@@ -1,0 +1,4 @@
+/usr/lib/xtables	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/xtables/libip6t_dst.so	0100755

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/chattr chattr /usr/bin/chattr.e2fsprogs 100
+	update-alternatives --install /usr/bin/lsattr lsattr /usr/bin/lsattr.e2fsprogs 100

@@ -1,0 +1,2 @@
+/usr/sbin/ifdown
+/usr/bin/busybox.nosuid 50

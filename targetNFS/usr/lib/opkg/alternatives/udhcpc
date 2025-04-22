@@ -1,0 +1,2 @@
+/usr/sbin/udhcpc
+/usr/bin/busybox.nosuid 50

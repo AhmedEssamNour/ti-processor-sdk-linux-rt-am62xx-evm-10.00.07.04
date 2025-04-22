@@ -1,0 +1,5 @@
+/usr/lib/xtables	040755
+/usr/lib/xtables/libxt_MARK.so	0100755
+/usr/lib	040755
+/usr/lib/xtables/libxt_mark.so	0100755
+/usr	040755

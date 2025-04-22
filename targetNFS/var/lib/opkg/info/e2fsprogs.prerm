@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  chattr /usr/bin/chattr.e2fsprogs
+	update-alternatives --remove  lsattr /usr/bin/lsattr.e2fsprogs

@@ -1,0 +1,4 @@
+/usr/bin/su
+/usr/bin/busybox.suid 50
+/usr/bin/su.shadow 200
+/usr/bin/su.util-linux 80

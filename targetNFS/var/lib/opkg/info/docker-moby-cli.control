@@ -1,0 +1,23 @@
+Package: docker-moby-cli
+Version: 25.0.3+gitf417435e5f6216828dec57958c490c4f8bae4f980+f417435e5f_67e0588f1d-r0_tisdk_0.45
+Description: Linux container runtime
+ Linux container runtime  Docker complements kernel namespacing with a
+ high-level API which  operates at the process level. It runs unix
+ processes with strong  guarantees of isolation and repeatability across
+ servers.  .  Docker is a great building block for automating distributed
+ systems:  large-scale web deployments, database clusters, continuous
+ deployment  systems, private PaaS, service-oriented architectures, etc.
+ .  This package contains the daemon and client, which are  officially
+ supported on x86_64 and arm hosts.  Other architectures are considered
+ experimental.  .  Also, note that kernel version 3.10 or above is
+ required for proper  operation of the daemon process, and that any lower
+ versions may have  subtle and/or glaring issues.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: docker-moby
+Homepage: http://www.docker.com
+Depends: libc6 (>= 2.39+git5+e8f5217097)
+Source: docker-moby_git.bb

@@ -1,0 +1,14 @@
+Package: bridge-utils
+Version: 1.7.1-r0.5
+Description: Tools for ethernet bridging
+ Tools for ethernet bridging.
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: bridge-utils
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge
+Depends: libc6 (>= 2.39+git5+e8f5217097), update-alternatives-opkg
+Recommends: kernel-module-bridge
+Source: bridge-utils_1.7.1.bb

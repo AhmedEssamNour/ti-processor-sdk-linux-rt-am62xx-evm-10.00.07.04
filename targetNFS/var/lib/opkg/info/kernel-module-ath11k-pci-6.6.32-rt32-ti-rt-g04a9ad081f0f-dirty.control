@@ -1,0 +1,14 @@
+Package: kernel-module-ath11k-pci-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Version: 6.6.32+git8+04a9ad081f-r0_tisdk_8_edgeai_0_edgeai_8.11
+Description: ath11k-pci kernel module
+ ath11k-pci kernel module; Driver support for Qualcomm Technologies PCIe
+ 802.11ax WLAN devices
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62xx_evm
+OE: linux-ti-staging-rt
+Depends: kernel-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty, kernel-module-ath11k-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty, kernel-module-mhi-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Provides: kernel-module-ath11k-pci
+Source: linux-ti-staging-rt_6.6.bb

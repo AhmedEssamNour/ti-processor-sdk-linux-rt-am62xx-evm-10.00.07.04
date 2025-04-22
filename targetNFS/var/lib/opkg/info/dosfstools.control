@@ -1,0 +1,13 @@
+Package: dosfstools
+Version: 4.2-r0.5
+Description: DOS FAT Filesystem Utilities
+ DOS FAT Filesystem Utilities.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only
+Architecture: aarch64
+OE: dosfstools
+Homepage: https://github.com/dosfstools/dosfstools
+Depends: libc6 (>= 2.39+git5+e8f5217097), update-alternatives-opkg
+Source: dosfstools_4.2.bb

@@ -1,0 +1,5 @@
+/usr/lib/xtables	040755
+/usr/lib	040755
+/usr/lib/xtables/libxt_conntrack.so	0100755
+/usr	040755
+/usr/lib/xtables/libxt_state.so	0120777	libxt_conntrack.so

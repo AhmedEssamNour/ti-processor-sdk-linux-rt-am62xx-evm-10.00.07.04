@@ -1,0 +1,2 @@
+/usr/bin/mpstat
+/usr/bin/busybox.nosuid 50

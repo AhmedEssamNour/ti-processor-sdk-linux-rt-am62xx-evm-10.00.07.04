@@ -1,0 +1,3 @@
+/usr/bin/dmesg
+/usr/bin/busybox.nosuid 50
+/usr/bin/dmesg.util-linux 80

@@ -1,0 +1,14 @@
+Package: kernel-module-cryptodev-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Version: 1.13+git0+bb8bc7cf60-r0.arago0.89
+Description: cryptodev kernel module
+ cryptodev kernel module; CryptoDev driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62xx_evm
+OE: cryptodev-module
+Homepage: http://cryptodev-linux.org/
+Depends: kernel-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Provides: kernel-module-cryptodev
+Source: cryptodev-module_1.13.bb

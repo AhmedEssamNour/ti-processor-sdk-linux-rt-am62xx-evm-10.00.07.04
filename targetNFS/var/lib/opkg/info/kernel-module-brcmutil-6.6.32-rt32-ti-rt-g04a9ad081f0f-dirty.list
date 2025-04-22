@@ -1,0 +1,12 @@
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net/wireless	040755
+/usr/lib	040755
+/usr/lib/modules	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net	040755
+/usr	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko	0100644
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net/wireless/broadcom/brcm80211	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/drivers/net/wireless/broadcom	040755

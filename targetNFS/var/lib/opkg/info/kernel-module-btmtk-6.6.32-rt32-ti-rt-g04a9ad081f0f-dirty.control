@@ -1,0 +1,13 @@
+Package: kernel-module-btmtk-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Version: 6.6.32+git8+04a9ad081f-r0_tisdk_8_edgeai_0_edgeai_8.11
+Description: btmtk kernel module
+ btmtk kernel module; Bluetooth support for MediaTek devices ver 0.1
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62xx_evm
+OE: linux-ti-staging-rt
+Depends: kernel-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty, kernel-module-bluetooth-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Provides: kernel-module-btmtk
+Source: linux-ti-staging-rt_6.6.bb

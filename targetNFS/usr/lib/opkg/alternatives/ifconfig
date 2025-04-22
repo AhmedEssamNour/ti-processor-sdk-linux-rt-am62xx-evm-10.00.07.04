@@ -1,0 +1,2 @@
+/usr/sbin/ifconfig
+/usr/bin/busybox.nosuid 50

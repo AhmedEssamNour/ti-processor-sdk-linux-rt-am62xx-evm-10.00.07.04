@@ -1,0 +1,3 @@
+/etc/init.d	040755
+/etc	040755
+/etc/init.d/telnetd	0100755

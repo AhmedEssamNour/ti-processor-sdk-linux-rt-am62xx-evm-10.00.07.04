@@ -1,0 +1,12 @@
+Package: arago-gpl-notice
+Version: 1.0-r3.0
+Description: arago-gpl-notice version 1.0-r3
+ Script to warn users of GPLv3 content on the target file system at boot
+ time
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: arago-gpl-notice
+Source: arago-gpl-notice.bb

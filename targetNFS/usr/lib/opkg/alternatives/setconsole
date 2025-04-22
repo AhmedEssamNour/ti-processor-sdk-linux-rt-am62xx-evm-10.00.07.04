@@ -1,0 +1,2 @@
+/usr/sbin/setconsole
+/usr/bin/busybox.nosuid 50

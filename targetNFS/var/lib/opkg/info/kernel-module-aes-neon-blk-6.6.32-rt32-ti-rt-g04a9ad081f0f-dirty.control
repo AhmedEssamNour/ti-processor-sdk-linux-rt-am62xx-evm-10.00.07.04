@@ -1,0 +1,13 @@
+Package: kernel-module-aes-neon-blk-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Version: 6.6.32+git8+04a9ad081f-r0_tisdk_8_edgeai_0_edgeai_8.11
+Description: aes-neon-blk kernel module
+ aes-neon-blk kernel module; AES-ECB/CBC/CTR/XTS/XCTR using ARMv8 NEON
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62xx_evm
+OE: linux-ti-staging-rt
+Depends: kernel-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Provides: kernel-module-aes-neon-blk
+Source: linux-ti-staging-rt_6.6.bb

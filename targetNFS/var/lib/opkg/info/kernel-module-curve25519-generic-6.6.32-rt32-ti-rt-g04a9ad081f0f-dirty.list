@@ -1,0 +1,7 @@
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty	040755
+/usr/lib	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/crypto	040755
+/usr/lib/modules	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel	040755
+/usr	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/kernel/crypto/curve25519-generic.ko	0100644

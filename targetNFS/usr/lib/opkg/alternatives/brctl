@@ -1,0 +1,3 @@
+/usr/sbin/brctl
+/usr/bin/busybox.nosuid 50
+/usr/sbin/brctl.bridge-utils 100

@@ -1,0 +1,9 @@
+/usr/sbin/brctl.bridge-utils	0100755
+/usr/share/bridge-utils	040755
+/etc/network/if-pre-up.d	040755
+/etc/network	040755
+/usr/sbin	040755
+/etc/network/if-post-down.d	040755
+/usr	040755
+/etc	040755
+/usr/share	040755

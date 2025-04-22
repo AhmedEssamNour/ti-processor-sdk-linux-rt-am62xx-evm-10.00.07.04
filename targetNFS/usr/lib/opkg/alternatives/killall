@@ -1,0 +1,2 @@
+/usr/bin/killall
+/usr/bin/busybox.nosuid 50

@@ -1,0 +1,10 @@
+/usr/bin/busybox	0120777	busybox.nosuid
+/usr/bin/busybox.suid	0104755
+/usr/bin/sh	0120777	busybox.nosuid
+/etc/busybox.links.nosuid	0100644
+/usr/bin	040755
+/usr/bin/busybox.nosuid	0100755
+/usr	040755
+/etc	040755
+/etc/busybox.links.suid	0100644
+/etc/inetd.conf	0100644

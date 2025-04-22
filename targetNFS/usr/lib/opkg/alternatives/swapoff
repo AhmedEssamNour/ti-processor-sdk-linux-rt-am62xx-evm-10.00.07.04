@@ -1,0 +1,3 @@
+/usr/sbin/swapoff
+/usr/bin/busybox.nosuid 50
+/usr/sbin/swapoff.util-linux 80

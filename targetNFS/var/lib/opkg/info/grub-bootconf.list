@@ -1,0 +1,4 @@
+/boot/EFI	040755
+/boot/EFI/BOOT/grub.cfg	0100755
+/boot/EFI/BOOT	040755
+/boot	040755

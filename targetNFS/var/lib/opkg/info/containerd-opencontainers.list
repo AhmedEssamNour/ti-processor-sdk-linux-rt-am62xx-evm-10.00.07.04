@@ -1,0 +1,14 @@
+/usr/lib/systemd/system	040755
+/usr/lib	040755
+/usr/lib/systemd/system-preset/98-containerd-opencontainers.preset	0100644
+/usr/lib/systemd/system/containerd.service	0100644
+/usr/bin/docker-containerd	0120777	containerd
+/usr/bin/containerd-shim-runc-v2	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/containerd-ctr	0100755
+/usr/lib/systemd	040755
+/usr/bin/containerd	0100755
+/usr/lib/systemd/system-preset	040755
+/usr/bin/ctr	0120777	containerd-ctr
+/usr/bin/docker-containerd-ctr	0120777	containerd-ctr

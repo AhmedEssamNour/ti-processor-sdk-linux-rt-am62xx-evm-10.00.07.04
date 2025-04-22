@@ -1,0 +1,2 @@
+/usr/sbin/chroot
+/usr/bin/busybox.nosuid 50

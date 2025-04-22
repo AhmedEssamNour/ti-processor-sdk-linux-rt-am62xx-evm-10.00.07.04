@@ -1,0 +1,7 @@
+/usr/sbin/mount.smb3	0120777	mount.cifs
+/usr/sbin	040755
+/usr/bin	040755
+/usr	040755
+/usr/sbin/mount.cifs	0100755
+/usr/bin/smbinfo	0100755
+/usr/bin/smb2-quota	0100755

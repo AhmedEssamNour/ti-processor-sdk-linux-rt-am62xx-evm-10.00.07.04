@@ -1,0 +1,14 @@
+Package: ethtool
+Version: 6.7-r0.3
+Description: Display or change ethernet card settings
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: libc6 (>= 2.39+git5+e8f5217097), libmnl0 (>= 1.0.5)
+Source: ethtool_6.7.bb

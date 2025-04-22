@@ -1,0 +1,14 @@
+Package: kernel-module-ax88179-178a-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Version: 6.6.32+git8+04a9ad081f-r0_tisdk_8_edgeai_0_edgeai_8.11
+Description: ax88179-178a kernel module
+ ax88179-178a kernel module; ASIX AX88179/178A based USB 3.0/2.0 Gigabit
+ Ethernet Devices
+Section: kernel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: am62xx_evm
+OE: linux-ti-staging-rt
+Depends: kernel-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty, kernel-module-mii-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty, kernel-module-usbnet-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Provides: kernel-module-ax88179-178a
+Source: linux-ti-staging-rt_6.6.bb

@@ -1,0 +1,15 @@
+Package: cifs-utils
+Version: 7.0-r0.33
+Description: cifs-utils version 7.0-r0
+ A a package of utilities for doing and managing mounts of the Linux CIFS
+ filesystem.
+Section: otherosfs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only & LGPL-3.0-only
+Architecture: aarch64
+OE: cifs-utils
+Homepage: http://wiki.samba.org/index.php/LinuxCIFS_utils
+Depends: libc6 (>= 2.39+git5+e8f5217097)
+Recommends: kernel-module-cifs
+Source: cifs-utils_7.0.bb

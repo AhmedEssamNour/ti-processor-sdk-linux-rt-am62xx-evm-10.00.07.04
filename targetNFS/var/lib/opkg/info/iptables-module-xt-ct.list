@@ -1,0 +1,6 @@
+/usr/lib/xtables	040755
+/usr/lib/xtables/libxt_NOTRACK.so	0120777	libxt_CT.so
+/usr/lib	040755
+/usr	040755
+/usr/lib/xtables/libxt_REDIRECT.so	0120777	libxt_NAT.so
+/usr/lib/xtables/libxt_CT.so	0100755

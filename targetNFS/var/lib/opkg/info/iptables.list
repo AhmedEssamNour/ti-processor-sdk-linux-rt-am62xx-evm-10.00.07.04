@@ -1,0 +1,37 @@
+/usr/lib/libxtables.so.12.7.0	0100755
+/etc/iptables	040755
+/usr/lib/systemd/system	040755
+/usr/lib/libip4tc.so.2.0.0	0100755
+/usr/share/xtables/iptables.xslt	0100644
+/usr/lib	040755
+/usr/lib/systemd/system-preset/98-iptables.preset	0100644
+/usr/bin/iptables-xml	0120777	/usr/sbin/xtables-legacy-multi
+/usr/sbin/iptables-save	0120777	xtables-legacy-multi
+/usr/sbin/xtables-legacy-multi	0100755
+/usr/sbin	040755
+/usr/sbin/iptables-restore	0120777	xtables-legacy-multi
+/usr/sbin/ip6tables-legacy	0120777	xtables-legacy-multi
+/etc/iptables/iptables.rules	0100644
+/usr/lib/libip4tc.so.2	0120777	libip4tc.so.2.0.0
+/usr/sbin/ip6tables-save	0120777	xtables-legacy-multi
+/usr/sbin/ip6tables	0120777	xtables-legacy-multi
+/etc/iptables/ip6tables.rules	0100644
+/usr/bin	040755
+/usr/sbin/ip6tables-restore	0120777	xtables-legacy-multi
+/usr/sbin/ip6tables-legacy-save	0120777	xtables-legacy-multi
+/usr	040755
+/etc	040755
+/usr/sbin/iptables-legacy-save	0120777	xtables-legacy-multi
+/usr/lib/systemd	040755
+/usr/lib/systemd/system-preset	040755
+/usr/lib/libip6tc.so.2.0.0	0100755
+/usr/sbin/iptables	0120777	xtables-legacy-multi
+/usr/share/xtables	040755
+/usr/sbin/iptables-legacy	0120777	xtables-legacy-multi
+/usr/lib/libip6tc.so.2	0120777	libip6tc.so.2.0.0
+/usr/lib/systemd/system/ip6tables.service	0100644
+/usr/sbin/iptables-legacy-restore	0120777	xtables-legacy-multi
+/usr/share	040755
+/usr/sbin/ip6tables-legacy-restore	0120777	xtables-legacy-multi
+/usr/lib/libxtables.so.12	0120777	libxtables.so.12.7.0
+/usr/lib/systemd/system/iptables.service	0100644

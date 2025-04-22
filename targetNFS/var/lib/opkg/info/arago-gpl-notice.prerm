@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop gplv3-notice.service
+
+		systemctl disable gplv3-notice.service
+	fi
+fi

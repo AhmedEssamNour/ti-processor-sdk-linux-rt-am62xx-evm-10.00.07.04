@@ -1,0 +1,15 @@
+/usr/lib/systemd/system	040755
+/usr/lib/systemd/user/dbus-broker.service	0100644
+/usr/lib	040755
+/usr/lib/systemd/user	040755
+/usr/lib/systemd/catalog	040755
+/usr/lib/systemd/system-preset/98-dbus-broker.preset	0100644
+/usr/bin	040755
+/usr/bin/dbus-broker	0100755
+/usr	040755
+/usr/lib/systemd	040755
+/usr/bin/dbus-broker-launch	0100755
+/usr/lib/systemd/system/dbus-broker.service	0100644
+/usr/lib/systemd/system-preset	040755
+/usr/lib/systemd/catalog/dbus-broker.catalog	0100644
+/usr/lib/systemd/catalog/dbus-broker-launch.catalog	0100644

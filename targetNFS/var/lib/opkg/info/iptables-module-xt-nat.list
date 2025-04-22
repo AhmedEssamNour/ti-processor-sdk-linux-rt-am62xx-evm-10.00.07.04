@@ -1,0 +1,7 @@
+/usr/lib/xtables	040755
+/usr/lib/xtables/libxt_NAT.so	0100755
+/usr/lib	040755
+/usr/lib/xtables/libxt_DNAT.so	0120777	libxt_NAT.so
+/usr	040755
+/usr/lib/xtables/libxt_MASQUERADE.so	0120777	libxt_NAT.so
+/usr/lib/xtables/libxt_SNAT.so	0120777	libxt_NAT.so

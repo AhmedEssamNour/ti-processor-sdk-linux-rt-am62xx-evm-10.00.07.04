@@ -1,0 +1,11 @@
+/usr/bin/avahi-browse	0100755
+/usr/bin/avahi-publish-service	0120777	avahi-publish
+/usr/bin	040755
+/usr/bin/avahi-resolve	0100755
+/usr	040755
+/usr/bin/avahi-resolve-address	0120777	avahi-resolve
+/usr/bin/avahi-set-host-name	0100755
+/usr/bin/avahi-browse-domains	0120777	avahi-browse
+/usr/bin/avahi-resolve-host-name	0120777	avahi-resolve
+/usr/bin/avahi-publish	0100755
+/usr/bin/avahi-publish-address	0120777	avahi-publish

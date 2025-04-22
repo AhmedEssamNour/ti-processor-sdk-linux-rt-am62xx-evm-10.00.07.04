@@ -1,0 +1,17 @@
+Package: containerd-opencontainers
+Version: v2.0.0-beta.0+git0+b1624c3628-r0.38
+Description: containerd is a daemon to control runC
+ containerd is a daemon to control runC, built for performance and
+ density.                containerd leverages runC's advanced features
+ such as seccomp and user namespace                support as well as
+ checkpoint and restore for cloning and live migration of containers.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: containerd-opencontainers
+Homepage: https://github.com/containerd/containerd
+Depends: libc6 (>= 2.39+git5+e8f5217097), virtual-runc
+Provides: virtual-containerd
+Source: containerd-opencontainers_git.bb

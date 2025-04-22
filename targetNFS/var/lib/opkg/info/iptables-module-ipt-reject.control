@@ -1,0 +1,13 @@
+Package: iptables-module-ipt-reject
+Version: 1.8.10-r0.9
+Description: iptables module ipt-reject
+ iptables module ipt-reject
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: aarch64
+OE: iptables
+Homepage: http://www.netfilter.org/
+Depends: iptables (>= 1.8.10), libc6 (>= 2.39+git5+e8f5217097)
+Source: iptables_1.8.10.bb

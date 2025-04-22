@@ -1,0 +1,5 @@
+/usr/lib/xtables	040755
+/usr/lib	040755
+/usr/lib/xtables/libxt_connmark.so	0100755
+/usr	040755
+/usr/lib/xtables/libxt_CONNMARK.so	0100755

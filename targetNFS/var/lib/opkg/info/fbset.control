@@ -1,0 +1,14 @@
+Package: fbset
+Version: 2.1-r0.5
+Description: The fbset console tool
+ The fbset console tool.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only
+Architecture: aarch64
+OE: fbset
+Homepage: http://users.telenet.be/geertu/Linux/fbdev/
+Depends: libc6 (>= 2.39+git5+e8f5217097), update-alternatives-opkg
+Recommends: fbset-modes
+Source: fbset_2.1.bb

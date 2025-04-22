@@ -1,0 +1,9 @@
+/usr/lib/systemd/system/gplv3-notice.service	0100644
+/usr/lib/systemd/system	040755
+/usr/lib	040755
+/usr/bin	040755
+/usr	040755
+/usr/lib/systemd/system-preset/98-arago-gpl-notice.preset	0100644
+/usr/lib/systemd	040755
+/usr/bin/gplv3-notice	0100755
+/usr/lib/systemd/system-preset	040755

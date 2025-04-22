@@ -1,0 +1,5 @@
+/usr/lib/xtables	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/xtables/libxt_TOS.so	0100755
+/usr/lib/xtables/libxt_tos.so	0100755

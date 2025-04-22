@@ -19,7 +19,7 @@ MAKE_JOBS?=1
 
 ### TI SDK CONFIG ###
 #Points to the root of the TI SDK
-export TI_SDK_PATH?=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04
+export TI_SDK_PATH?=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04
 
 export LINUX_DEVKIT_PATH=$(TI_SDK_PATH)/linux-devkit
 export K3_R5_LINUX_DEVKIT_PATH=$(TI_SDK_PATH)/k3r5-devkit

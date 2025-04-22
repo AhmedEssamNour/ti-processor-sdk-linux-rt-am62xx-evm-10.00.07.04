@@ -1,0 +1,3 @@
+/etc/opkg/base-feeds.conf	0100644
+/etc/opkg	040755
+/etc	040755

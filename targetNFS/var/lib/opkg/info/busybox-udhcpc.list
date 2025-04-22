@@ -1,0 +1,7 @@
+/usr/share/udhcpc	040755
+/etc/udhcpc.d/50default	0100755
+/usr/share/udhcpc/default.script	0100755
+/usr	040755
+/etc	040755
+/etc/udhcpc.d	040755
+/usr/share	040755

@@ -1,0 +1,11 @@
+Package: initscript-telnetd
+Version: 1.0-r1.5
+Description: initscript-telnetd version 1.0-r1
+ Initscripts for telnetd
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: aarch64
+OE: initscript-telnetd
+Source: initscript-telnetd.bb

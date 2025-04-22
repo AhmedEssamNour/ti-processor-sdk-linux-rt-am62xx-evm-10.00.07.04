@@ -1,0 +1,13 @@
+Package: grub-bootconf
+Version: 1.00-r0.3
+Description: Basic grub.cfg for use in EFI systems
+ Grub might require different configuration file for different machines.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62xx_evm
+OE: grub-bootconf
+Homepage: https://www.gnu.org/software/grub/manual/grub/grub.html#Configuration
+Provides: virtual-grub-bootconf
+Source: grub-bootconf_1.00.bb

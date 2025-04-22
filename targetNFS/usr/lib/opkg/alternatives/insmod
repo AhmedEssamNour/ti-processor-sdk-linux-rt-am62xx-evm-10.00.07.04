@@ -1,0 +1,3 @@
+/usr/sbin/insmod
+/usr/bin/busybox.nosuid 50
+/usr/sbin/insmod.kmod 70

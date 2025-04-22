@@ -1,0 +1,12 @@
+Package: dbus-broker
+Version: 32-r0.40
+Description: dbus broker
+ Drop-in replacement for dbus-daemon.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: aarch64
+OE: dbus-broker
+Depends: dbus-common, libc6 (>= 2.39+git5+e8f5217097), libexpat1 (>= 2.6.2), libsystemd0 (>= 255.4)
+Source: dbus-broker_32.bb

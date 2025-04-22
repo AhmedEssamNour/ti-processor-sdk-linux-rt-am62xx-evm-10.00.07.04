@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/mke2fs mke2fs /usr/sbin/mke2fs.e2fsprogs 100
+	update-alternatives --install /usr/sbin/mkfs.ext2 mkfs.ext2 /usr/sbin/mkfs.ext2.e2fsprogs 100

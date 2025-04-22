@@ -1,0 +1,2 @@
+/usr/bin/ping6
+/usr/bin/busybox.suid 50

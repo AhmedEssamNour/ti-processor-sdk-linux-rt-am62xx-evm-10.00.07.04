@@ -1,0 +1,4 @@
+/usr/lib/xtables	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/xtables/libxt_socket.so	0100755

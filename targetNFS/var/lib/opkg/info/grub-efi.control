@@ -1,0 +1,16 @@
+Package: grub-efi
+Version: 2.12-r0.3
+Description: GRUB2 is the next-generation GRand Unified Bootloader
+ GRUB2 is the next generaion of a GPLed bootloader intended to unify
+ bootloading across x86 operating systems. In addition to loading the
+ Linux kernel, it implements the Multiboot standard, which allows for
+ flexible loading of multiple boot images.
+Section: bootloaders
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only
+Architecture: aarch64
+OE: grub-efi
+Homepage: http://www.gnu.org/software/grub/
+Depends: grub-common, virtual-grub-bootconf
+Source: grub-efi_2.12.bb
