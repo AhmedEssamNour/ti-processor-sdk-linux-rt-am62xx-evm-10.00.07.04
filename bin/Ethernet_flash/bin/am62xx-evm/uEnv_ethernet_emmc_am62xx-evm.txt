@@ -1,0 +1,73 @@
+# This uEnv.txt file can contain additional environment settings that you       
+# want to set in U-Boot at boot time.  This can be simple variables such        
+# as the serverip or custom variables.  The format of this file is:             
+#    variable=value 
+
+user_commands=echo Flashing_on_emmc; run command_list;
+
+
+cmd_1=mmc dev 0 1
+
+# ************To flash tiboot3.bin************
+
+# erase
+cmd_2=mmc erase 0x0 0x400
+
+# Enter your filename in place of tiboot3.bin
+cmd_3=dhcp tiboot3.bin
+
+# write
+cmd_4=mmc write ${loadaddr} 0x0 0x400
+
+# ************To flash tispl.bin************
+
+# erase
+cmd_5=mmc erase 0x400 0x1000
+
+# Enter your filename in place of tispl.bin
+cmd_6=dhcp tispl.bin
+
+# write
+cmd_7=mmc write ${loadaddr} 0x400 0x1000
+
+# ************To flash u-boot.img************
+
+# erase
+cmd_8=mmc erase 0x1400 0x2000
+
+# Enter your filename in place of u-boot.img
+cmd_9=dhcp u-boot.img
+
+# write
+cmd_10=mmc write ${loadaddr} 0x1400 0x2000
+
+# ************To flash uEnv.txt************                                   
+
+# erase                                                                         
+cmd_11=mmc erase 0x3400 0x100                                                   
+
+# Enter your filename in place of uEnv.txt                                    
+cmd_12=dhcp uEnv.txt                                                           
+
+# write                                                                         
+cmd_13=mmc write ${loadaddr} 0x3400 0x100 
+
+# ************To flash rootfs************                                     
+
+cmd_14=mmc dev 0 2
+
+# erase                                                                         
+cmd_15=mmc erase 0x0 ...rootfs.ext4 size in bytes divided by 512, in hex...                                                 
+
+# Enter your filename in place of rootfs.ext4                                      
+cmd_16=dhcp rootfs.ext4                                                            
+
+# write                                                                         
+cmd_17=mmc write ${loadaddr} 0x0 ...rootfs.ext4 size in bytes divided by 512, in hex...
+
+cmd_18=echo Flashing_Done
+
+# Run the list of commands specified by variables.                              
+# Add or remove the commands you want to run 
+
+command_list=run cmd_1; run cmd_2; run cmd_3; run cmd_4; run cmd_5; run cmd_6; run cmd_7; run cmd_8; run cmd_9; run cmd_10; run cmd_11; run cmd_12; run cmd_13; run cmd_14; run cmd_15; run cmd_16; run cmd_17; run cmd_18;

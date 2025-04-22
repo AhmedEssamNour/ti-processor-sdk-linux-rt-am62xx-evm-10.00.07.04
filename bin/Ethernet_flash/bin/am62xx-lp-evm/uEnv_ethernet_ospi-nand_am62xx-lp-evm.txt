@@ -1,0 +1,68 @@
+# This uEnv.txt file can contain additional environment settings that you
+# want to set in U-Boot at boot time.  This can be simple variables such
+# as the serverip or custom variables.  The format of this file is:
+#    variable=value
+
+user_commands=echo Flashing_on_OSPI_NAND; mtd list; run command_list;
+
+# ************To flash tiboot3.bin************
+
+# erase
+cmd_1=mtd erase ospi.tiboot3
+
+# Enter your filename in place of tiboot3.bin
+cmd_2=dhcp tiboot3.bin 
+
+# write
+cmd_3=mtd write ospi.tiboot3 ${loadaddr}
+
+# ************To flash tispl.bin************
+
+# erase
+cmd_4=mtd erase ospi.tispl
+
+# Enter your filename in place of tispl.bin
+cmd_5=dhcp tispl.bin
+
+# write
+cmd_6=mtd write ospi.tispl ${loadaddr}
+
+# ************To flash u-boot.img************
+
+# erase
+cmd_7=mtd erase ospi.u-boot
+
+# Enter your filename in place of u-boot.img
+cmd_8=dhcp u-boot.img
+
+# write
+cmd_9=mtd write ospi.u-boot ${loadaddr}
+
+# ************To flash uEnv.txt************
+
+# erase
+cmd_10=mtd erase ospi.env
+
+# Enter your filename in place of uEnv.txt
+cmd_11=dhcp uEnv.txt
+
+# write
+cmd_12=mtd write ospi.env ${loadaddr}
+
+# ************To flash rootfs************
+
+# erase
+cmd_13=mtd erase ospi.rootfs
+
+# Enter your filename in place of rootfs
+cmd_14=dhcp rootfs
+
+# write
+cmd_15=mtd write ospi.rootfs ${loadaddr}
+
+cmd_16=echo Flashing_Done
+
+# Run the list of commands specified by variables. 
+# Add or remove the commands you want to run
+
+command_list=run cmd_1; run cmd_2; run cmd_3; run cmd_4; run cmd_5; run cmd_6; run cmd_7; run cmd_8; run cmd_9; run cmd_10; run cmd_11; run cmd_12; run cmd_13; run cmd_14; run cmd_15; run cmd_16;

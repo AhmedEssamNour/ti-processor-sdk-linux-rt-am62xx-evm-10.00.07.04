@@ -1,0 +1,55 @@
+# This uEnv.txt file can contain additional environment settings that you       
+# want to set in U-Boot at boot time.  This can be simple variables such        
+# as the serverip or custom variables.  The format of this file is:             
+#    variable=value 
+
+user_commands=echo Flashing_on_OSPI_NOR; run command_list;
+
+cmd_1=sf probe
+
+# ************To flash tiboot3.bin************
+
+# Enter your filename in place of tiboot3.bin
+cmd_2=dhcp tiboot3.bin
+
+# erase and write
+cmd_3=sf update $loadaddr 0x0 ${filesize}
+
+# ************To flash tispl.bin************
+
+# Enter your filename in place of tispl.bin
+cmd_4=dhcp tispl.bin
+
+# erase and write
+cmd_5=sf update $loadaddr 0x80000 ${filesize}
+
+# ************To flash u-boot.img************
+
+# Enter your filename in place of u-boot.img
+cmd_6=dhcp u-boot.img
+
+# erase and write
+cmd_7=sf update $loadaddr 0x280000 ${filesize}
+
+# ************To flash uEnv.txt************                                   
+
+# Enter your filename in place of uEnv.txt                                    
+cmd_8=dhcp uEnv.txt                                                           
+
+# earse and write                                                                         
+cmd_9=sf update $loadaddr 0x680000 ${filesize}
+
+# ************To flash rootfs************                                     
+
+# Enter your filename in place of rootfs                                
+cmd_10=dhcp rootfs                                           
+
+# erase and write                                                                         
+cmd_11=sf update $loadaddr 0x800000 ${filesize}
+
+cmd_12=echo Flashing_Done
+
+# Run the list of commands specified by variables.                              
+# Add or remove the commands you want to run 
+
+command_list=run cmd_1; run cmd_2; run cmd_3; run cmd_4; run cmd_5; run cmd_6; run cmd_7; run cmd_8; run cmd_9; run cmd_10; run cmd_11; run cmd_12;
