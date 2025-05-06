@@ -1,0 +1,2 @@
+- Run the following command to convert "boot.cmd" to "boot.src":
+$ mkimage -A arm -T script -C none -n "AM625 Boot Script" -d ./boot.cmd ./boot.scr
