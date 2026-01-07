@@ -1,0 +1,13 @@
+Package: nativesdk-clocl
+Version: 1.2.00.02-r0.0.27
+Description: nativesdk-clocl version 1.2.00.02-r0.0
+ TI OpenCL offline C compiler for compute devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: x86_64-nativesdk
+OE: nativesdk-clocl
+Homepage: https://downloads.ti.com/mctools/esd/docs/opencl/index.html
+Depends: nativesdk-ti-cgt6x
+Source: clocl_git.bb

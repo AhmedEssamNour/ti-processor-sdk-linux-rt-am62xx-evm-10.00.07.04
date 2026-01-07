@@ -1,0 +1,13 @@
+Package: nativesdk-qemu-user-ppc64le
+Version: 8.2.2-r0.19
+Description: QEMU full user emulation binaries(ppc64le)
+ QEMU full user emulation binaries(ppc64le)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-libc6 (>= 2.39+git3+e8f5217097), nativesdk-libglib-2.0-0 (>= 2.78.6), nativesdk-qemu-common
+Source: qemu_8.2.2.bb

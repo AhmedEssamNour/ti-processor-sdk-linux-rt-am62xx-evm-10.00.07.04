@@ -1,0 +1,12 @@
+Package: nativesdk-open62541-tests
+Version: 1.3.8-r0.25
+Description: nativesdk-open62541 version 1.3.8-r0
+ open62541 is an implementation of OPC UA (OPC Unified Architecture)
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MPL-2.0 & BSD-3-Clause & MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-open62541
+Homepage: https://github.com/open62541/open62541.git
+Source: open62541_1.3.8.bb

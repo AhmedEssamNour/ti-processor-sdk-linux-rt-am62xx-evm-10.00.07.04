@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  passwd /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/passwd.shadow
+	update-alternatives --remove  chfn /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/chfn.shadow
+	update-alternatives --remove  chsh /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/chsh.shadow
+	update-alternatives --remove  chpasswd /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/chpasswd.shadow
+	update-alternatives --remove  vipw /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/sbin/vipw.shadow
+	update-alternatives --remove  vigr /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/sbin/vigr.shadow
+	update-alternatives --remove  nologin /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/sbin/nologin.shadow

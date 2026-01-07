@@ -1,0 +1,14 @@
+Package: nativesdk-python3-numpy
+Version: 1.26.4-r0.25
+Description: A sophisticated Numeric Processing Package for Python
+ NumPy is the fundamental package needed for scientific computing with
+ Python.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause & BSD-2-Clause & PSF-2.0 & Apache-2.0 & MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-python3-numpy
+Homepage: https://numpy.org/
+Depends: nativesdk-libc6 (>= 2.39+git3+e8f5217097), nativesdk-libgcc1 (>= 13.3.0), nativesdk-libstdc++6 (>= 13.3.0), nativesdk-python3-compression, nativesdk-python3-ctypes, nativesdk-python3-datetime, nativesdk-python3-difflib, nativesdk-python3-doctest, nativesdk-python3-email, nativesdk-python3-json, nativesdk-python3-misc, nativesdk-python3-mmap, nativesdk-python3-multiprocessing, nativesdk-python3-netclient, nativesdk-python3-numbers, nativesdk-python3-pickle, nativesdk-python3-pkgutil, nativesdk-python3-pprint, nativesdk-python3-pydoc, nativesdk-python3-shell, nativesdk-python3-threading, nativesdk-python3-unittest
+Source: python3-numpy_1.26.4.bb

@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  python3-config /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/python3.12-config-lib

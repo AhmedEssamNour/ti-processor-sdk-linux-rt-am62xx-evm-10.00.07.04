@@ -1,0 +1,15 @@
+Package: nativesdk-liblzo2-2
+Version: 2.10-r0.16
+Description: Lossless data compression library
+ A portable lossless data compression library written in ANSI C that
+ offers pretty fast compression and *extremely* fast decompression.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: nativesdk-libc6 (>= 2.39+git3+e8f5217097)
+Provides: nativesdk-lzo
+Source: lzo_2.10.bb

@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+if [ "x$D" != "x" ]; then
+    $INTERCEPT_DIR/postinst_intercept update_gio_module_cache nativesdk-libglib-2.0-0 \
+            mlprefix=nativesdk- \
+            binprefix=nativesdk- \
+            libdir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib \
+            libexecdir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/libexec \
+            base_libdir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/lib \
+            bindir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin
+else
+    /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/libexec/nativesdk-gio-querymodules /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gio/modules/
+fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

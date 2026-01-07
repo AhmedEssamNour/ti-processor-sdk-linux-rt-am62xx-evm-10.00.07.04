@@ -1,0 +1,13 @@
+Package: nativesdk-perl-module-feature
+Version: 5.38.2-r0.16
+Description: perl module feature
+ perl module feature
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Artistic-1.0 | GPL-1.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-perl
+Homepage: http://www.perl.org/
+Depends: nativesdk-perl
+Source: perl_5.38.2.bb

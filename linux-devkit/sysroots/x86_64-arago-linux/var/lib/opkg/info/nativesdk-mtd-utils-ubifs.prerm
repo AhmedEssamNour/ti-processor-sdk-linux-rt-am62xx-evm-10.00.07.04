@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  ubiattach /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubiattach.mtd-utils
+	update-alternatives --remove  ubidetach /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubidetach.mtd-utils
+	update-alternatives --remove  ubimkvol /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubimkvol.mtd-utils
+	update-alternatives --remove  ubirename /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubirename.mtd-utils
+	update-alternatives --remove  ubirmvol /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubirmvol.mtd-utils
+	update-alternatives --remove  ubirsvol /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubirsvol.mtd-utils
+	update-alternatives --remove  ubiupdatevol /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/ubiupdatevol.mtd-utils

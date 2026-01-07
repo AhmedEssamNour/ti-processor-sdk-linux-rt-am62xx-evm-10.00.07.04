@@ -1,0 +1,12 @@
+Package: nativesdk-gcc-arm-baremetal
+Version: 7-2018-q2-update-r0.18
+Description: nativesdk-gcc-arm-baremetal version 7-2018-q2-update-r0
+ Baremetal GCC for ARM
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-GCC-exception & GPL-3.0-only
+Architecture: x86_64-nativesdk
+OE: nativesdk-gcc-arm-baremetal
+Depends: nativesdk-libc6 (>= 2.39+git3+e8f5217097), nativesdk-libgcc1 (>= 13.3.0), nativesdk-libstdc++6 (>= 13.3.0)
+Source: gcc-arm-baremetal_7-2018-q2-update.bb

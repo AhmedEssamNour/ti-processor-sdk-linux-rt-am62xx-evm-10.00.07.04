@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  bash /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/bin/bash.bash
+	update-alternatives --remove  sh /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/bin/bash.bash

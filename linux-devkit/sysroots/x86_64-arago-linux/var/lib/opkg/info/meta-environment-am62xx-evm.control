@@ -1,0 +1,11 @@
+Package: meta-environment-am62xx-evm
+Version: 1.0-r0.55
+Description: Package of environment files for SDK
+ Package of environment files for SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: meta-environment-am62xx-evm
+Source: meta-environment.bb

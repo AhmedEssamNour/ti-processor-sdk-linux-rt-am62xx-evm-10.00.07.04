@@ -1,0 +1,14 @@
+Package: nativesdk-mtd-utils-ubifs
+Version: 2.1.6-r0.arago2.20
+Description: Tools for managing memory technology devices
+ mtd-utils tool is a generic Linux subsystem for memory devices,
+ especially Flash devices.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-2.0-or-later
+Architecture: x86_64-nativesdk
+OE: nativesdk-mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Depends: nativesdk-libc6 (>= 2.39+git3+e8f5217097), nativesdk-liblzo2-2 (>= 2.10), nativesdk-libuuid1 (>= 2.39.3), nativesdk-libz1 (>= 1.3.1), nativesdk-update-alternatives-opkg
+Source: mtd-utils_git.bb

@@ -1,0 +1,12 @@
+Package: nativesdk-packagegroup-arago-tisdk-host
+Version: 1.0-r2.0
+Description: Host packages for a standalone Arago SDK with TI tools
+ Host packages for a standalone Arago SDK with TI tools.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-packagegroup-arago-tisdk-host
+Depends: nativesdk-clocl, nativesdk-gcc-arm-baremetal, nativesdk-git, nativesdk-mtd-utils-ubifs, nativesdk-open62541-examples, nativesdk-open62541-tests, nativesdk-packagegroup-sdk-host, nativesdk-python3-numpy, nativesdk-python3-setuptools, nativesdk-ti-cgt-pru, nativesdk-ti-cgt6x, nativesdk-wayland-dev
+Source: nativesdk-packagegroup-arago-tisdk-host.bb

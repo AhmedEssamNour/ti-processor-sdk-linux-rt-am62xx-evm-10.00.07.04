@@ -1,0 +1,13 @@
+prefix=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr
+exec_prefix=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr
+libdir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib
+includedir=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/include
+modules=1
+
+Name: libXML
+Version: 2.12.8
+Description: libXML library version2.
+Requires.private:  zlib
+Libs: -L${libdir} -lxml2 
+Libs.private:    -lm  
+Cflags: -I${includedir}/libxml2 
