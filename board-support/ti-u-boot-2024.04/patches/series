@@ -1,0 +1,2 @@
+0001-configs-j7-Enable-the-NFS-command-by-default.patch -p1
+0001-net-nfs-Set-mount-version-to-default-2.patch -p1

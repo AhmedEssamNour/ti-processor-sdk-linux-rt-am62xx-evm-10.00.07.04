@@ -1,0 +1,81 @@
+From ca1645e0a75feff32884eb7bed2495de25bb4763 Mon Sep 17 00:00:00 2001
+From: Neha Malcom Francis <n-francis@ti.com>
+Date: Fri, 12 Jul 2024 13:58:20 +0530
+Subject: [PATCH] configs: j7*: Enable the NFS command by default
+
+Enable the NFS command across all J7 platforms to allow network booting
+via the NFS protocol.
+
+Fixes: 10de12570799 ("disable NFS support by default")
+Signed-off-by: Neha Malcom Francis <n-francis@ti.com>
+---
+ configs/j7200_evm_a72_defconfig  | 1 +
+ configs/j721e_evm_a72_defconfig  | 1 +
+ configs/j721s2_evm_a72_defconfig | 1 +
+ configs/j722s_evm_a53_defconfig  | 1 +
+ configs/j784s4_evm_a72_defconfig | 1 +
+ 5 files changed, 5 insertions(+)
+
+diff --git a/configs/j7200_evm_a72_defconfig b/configs/j7200_evm_a72_defconfig
+index f15d71cda29..3fc57fc29d7 100644
+--- a/configs/j7200_evm_a72_defconfig
++++ b/configs/j7200_evm_a72_defconfig
+@@ -72,6 +72,7 @@ CONFIG_CMD_GPT=y
+ CONFIG_CMD_I2C=y
+ CONFIG_CMD_MMC=y
+ CONFIG_CMD_MTD=y
++CONFIG_CMD_NFS=y
+ CONFIG_CMD_REMOTEPROC=y
+ CONFIG_CMD_UFS=y
+ CONFIG_CMD_USB=y
+diff --git a/configs/j721e_evm_a72_defconfig b/configs/j721e_evm_a72_defconfig
+index 789d0abdf3d..fdcdc6c2709 100644
+--- a/configs/j721e_evm_a72_defconfig
++++ b/configs/j721e_evm_a72_defconfig
+@@ -71,6 +71,7 @@ CONFIG_CMD_GPT=y
+ CONFIG_CMD_I2C=y
+ CONFIG_CMD_MMC=y
+ CONFIG_CMD_MTD=y
++CONFIG_CMD_NFS=y
+ CONFIG_CMD_REMOTEPROC=y
+ CONFIG_CMD_UFS=y
+ CONFIG_CMD_USB=y
+diff --git a/configs/j721s2_evm_a72_defconfig b/configs/j721s2_evm_a72_defconfig
+index 8f6a69c41ea..3a4253a8f02 100644
+--- a/configs/j721s2_evm_a72_defconfig
++++ b/configs/j721s2_evm_a72_defconfig
+@@ -74,6 +74,7 @@ CONFIG_CMD_GPT=y
+ CONFIG_CMD_I2C=y
+ CONFIG_CMD_MMC=y
+ CONFIG_CMD_MTD=y
++CONFIG_CMD_NFS=y
+ CONFIG_CMD_REMOTEPROC=y
+ CONFIG_CMD_UFS=y
+ CONFIG_CMD_USB=y
+diff --git a/configs/j722s_evm_a53_defconfig b/configs/j722s_evm_a53_defconfig
+index b1a9a79ad29..405a919493b 100644
+--- a/configs/j722s_evm_a53_defconfig
++++ b/configs/j722s_evm_a53_defconfig
+@@ -68,6 +68,7 @@ CONFIG_CMD_GPT=y
+ CONFIG_CMD_I2C=y
+ CONFIG_CMD_MMC=y
+ CONFIG_CMD_MTD=y
++CONFIG_CMD_NFS=y
+ CONFIG_CMD_REMOTEPROC=y
+ CONFIG_CMD_USB=y
+ CONFIG_CMD_USB_MASS_STORAGE=y
+diff --git a/configs/j784s4_evm_a72_defconfig b/configs/j784s4_evm_a72_defconfig
+index 409cee2b6be..21c3d897f85 100644
+--- a/configs/j784s4_evm_a72_defconfig
++++ b/configs/j784s4_evm_a72_defconfig
+@@ -73,6 +73,7 @@ CONFIG_CMD_GPT=y
+ CONFIG_CMD_I2C=y
+ CONFIG_CMD_MMC=y
+ CONFIG_CMD_MTD=y
++CONFIG_CMD_NFS=y
+ CONFIG_CMD_REMOTEPROC=y
+ CONFIG_CMD_USB=y
+ CONFIG_CMD_TIME=y
+-- 
+2.34.1
+

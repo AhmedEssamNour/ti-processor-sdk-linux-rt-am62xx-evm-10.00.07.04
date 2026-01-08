@@ -1,0 +1,43 @@
+From ae543827d9cbfafa15efa9f42723318c7c6e3f8d Mon Sep 17 00:00:00 2001
+From: Rahul T R <r-ravikumar@ti.com>
+Date: Thu, 18 Jul 2024 19:21:08 +0530
+Subject: [PATCH] net: nfs: Set mount version to default 2
+
+Fixes: e4bd95bba16b ("net: add NFSv1 support")
+Signed-off-by: Rahul T R <r-ravikumar@ti.com>
+---
+ net/nfs.c | 18 ------------------
+ 1 file changed, 18 deletions(-)
+
+diff --git a/net/nfs.c b/net/nfs.c
+index 7a8887ef..3d25468d 100644
+--- a/net/nfs.c
++++ b/net/nfs.c
+@@ -212,24 +212,6 @@ static void rpc_req(int rpc_prog, int rpc_proc, uint32_t *data, int datalen)
+ 		}
+ 		break;
+ 	case PROG_MOUNT:
+-		switch (choosen_nfs_version) {
+-		case NFS_V1:
+-			rpc_pkt.u.call.vers = htonl(1);
+-			break;
+-
+-		case NFS_V2:
+-			rpc_pkt.u.call.vers = htonl(2);
+-			break;
+-
+-		case NFS_V3:
+-			rpc_pkt.u.call.vers = htonl(3);
+-			break;
+-
+-		case NFS_UNKOWN:
+-			/* nothing to do */
+-			break;
+-		}
+-		break;
+ 	case PROG_PORTMAP:
+ 	default:
+ 		rpc_pkt.u.call.vers = htonl(2);	/* portmapper is version 2 */
+-- 
+2.34.1
+
