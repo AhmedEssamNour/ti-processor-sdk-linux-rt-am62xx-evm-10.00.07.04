@@ -1,0 +1,4 @@
+0001-lib-build_OID_registry-fix-reproducibility-issues.patch -p1
+0001-vt-conmakehash-improve-reproducibility.patch -p1
+0001-pnmtologo-use-relocatable-file-name.patch -p1
+0001-remoteproc-k3-dsp-assert-reset-in-probe.patch -p1
