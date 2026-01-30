@@ -11,11 +11,16 @@ linux-dtbs:
 		$(MAKE) -j $(MAKE_JOBS) -C $(LINUXKERNEL_INSTALL_DIR) DTC_FLAGS=-@ ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) $$DTB; \
 	done
 
-linux-dtbs_stage:
-	mkdir -p $(TI_SDK_PATH)/board-support/built-images/dtb/ti
+linux-dtbs_stage: #(aessam_patch)
+#	mkdir -p $(TI_SDK_PATH)/board-support/built-images/dtb/ti
+#	@for DTB in $(KERNEL_DEVICETREE); do \
+#		cp $(LINUXKERNEL_INSTALL_DIR)/arch/arm64/boot/dts/$$DTB $(TI_SDK_PATH)/board-support/built-images/dtb/ti; \
+#	done
+	sudo rm -rf $(TI_SDK_PATH)/targetNFS/boot/dtb/ti
+	mkdir -p $(TI_SDK_PATH)/targetNFS/boot/dtb/ti
 	@for DTB in $(KERNEL_DEVICETREE); do \
-		cp $(LINUXKERNEL_INSTALL_DIR)/arch/arm64/boot/dts/$$DTB $(TI_SDK_PATH)/board-support/built-images/dtb/ti; \
-	done
+		cp $(LINUXKERNEL_INSTALL_DIR)/arch/arm64/boot/dts/$$DTB $(TI_SDK_PATH)/targetNFS/boot/dtb/ti; \
+	done	
 
 linux-dtbs_install: linux-dtbs_stage
 	@echo =======================================
