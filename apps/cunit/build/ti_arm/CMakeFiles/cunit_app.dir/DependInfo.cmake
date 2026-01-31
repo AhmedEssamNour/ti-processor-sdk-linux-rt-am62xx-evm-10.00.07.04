@@ -12,12 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/testsuite1/src/testsuite1.c" "CMakeFiles/cunit_app.dir/testsuite1/src/testsuite1.c.o" "gcc" "CMakeFiles/cunit_app.dir/testsuite1/src/testsuite1.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -4,12 +4,12 @@ set(CMAKE_SYSTEM_PROCESSOR aarch64)
 
 # Where the host SDK. sysroot lives
 set(HOST_SYSROOT
-    /../../../../linux-devkit/sysroots/x86_64-arago-linux
+    /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux
 )
 
 # Where the TI. target SDK. sysroot lives
 set(TI_TARGET_SYSROOT
-    /../../../../linux-devkit/sysroots/aarch64-oe-linux
+    /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux
 )
 
 # Compilers

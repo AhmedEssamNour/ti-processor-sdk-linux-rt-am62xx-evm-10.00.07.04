@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

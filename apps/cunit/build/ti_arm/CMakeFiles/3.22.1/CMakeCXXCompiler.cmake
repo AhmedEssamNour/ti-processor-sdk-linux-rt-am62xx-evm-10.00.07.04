@@ -16,19 +16,18 @@ set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")
 
 set(CMAKE_CXX_PLATFORM_ID "Linux")
 set(CMAKE_CXX_SIMULATE_ID "")
-set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
+set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
 
-set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar-11")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib-11")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_AR "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-ar")
+set(CMAKE_CXX_COMPILER_AR "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc-ar")
+set(CMAKE_RANLIB "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc-ranlib")
+set(CMAKE_LINKER "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-ld")
 set(CMAKE_MT "")
-set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
@@ -37,7 +36,7 @@ set(CMAKE_CXX_ABI_COMPILED TRUE)
 set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")
 
 set(CMAKE_CXX_COMPILER_ID_RUN 1)
-set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm;ccm;cxxm;c++m)
+set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm)
 set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)
 
 foreach (lang C OBJC OBJCXX)
@@ -50,7 +49,6 @@ endforeach()
 
 set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
-set(CMAKE_CXX_LINKER_DEPFILE_SUPPORTED TRUE)
 
 # Save compiler ABI information.
 set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
