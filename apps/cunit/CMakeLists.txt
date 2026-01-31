@@ -4,6 +4,11 @@ project(cunit C CXX)
 
 add_executable(cunit_app)
 
+# ============================================================
+# CUnit third-party location
+# ============================================================
+set(CUNIT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../third_party/cunit")
+
 target_sources(cunit_app
     PRIVATE
         main.c
@@ -13,6 +18,12 @@ target_sources(cunit_app
 target_include_directories(cunit_app
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/testsuite1/include
+        ${CUNIT_ROOT}/include
+)
+
+target_link_libraries(cunit_app
+    PRIVATE
+        ${CUNIT_ROOT}/lib64/libcunit.a
 )
 
 target_compile_features(cunit_app
