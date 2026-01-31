@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/cunit_app.dir/main.c.o CMakeFiles/cunit_app.dir/testsuite1/src/testsuite1.c.o -o cunit_app 

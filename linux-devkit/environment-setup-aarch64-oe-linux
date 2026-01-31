@@ -12,14 +12,14 @@ if [ ! -z "${LD_LIBRARY_PATH:-}" ]; then
     return 1
 fi
 
-export SDKTARGETSYSROOT=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux
-export PATH=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/sbin:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/bin:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/sbin:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../x86_64-arago-linux/bin:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux:/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux-musl:"$PATH"
+export SDKTARGETSYSROOT=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux
+export PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/sbin:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/bin:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/sbin:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/../x86_64-arago-linux/bin:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux-musl:"$PATH"
 export PKG_CONFIG_SYSROOT_DIR=$SDKTARGETSYSROOT
 export PKG_CONFIG_PATH=$SDKTARGETSYSROOT/usr/lib/pkgconfig:$SDKTARGETSYSROOT/usr/share/pkgconfig
-export CONFIG_SITE=/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/site-config-aarch64-oe-linux
-export OECORE_NATIVE_SYSROOT="/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux"
+export CONFIG_SITE=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/site-config-aarch64-oe-linux
+export OECORE_NATIVE_SYSROOT="/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux"
 export OECORE_TARGET_SYSROOT="$SDKTARGETSYSROOT"
-export OECORE_ACLOCAL_OPTS="-I /home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/aclocal"
+export OECORE_ACLOCAL_OPTS="-I /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/aclocal"
 export OECORE_BASELIB="lib"
 export OECORE_TARGET_ARCH="aarch64"
 export OECORE_TARGET_OS="linux"

@@ -1,0 +1,961 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - aarch64
+      The host system is: Linux - 6.8.0-49-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -Aa 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: aarch64-oe-linux-gcc  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: --c++ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: --ec++ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: aarch64-oe-linux-g++  -mbranch-protection=standard --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      No such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      1
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crt1.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crti.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtbegin.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtend.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      1
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crt1.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crti.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtbegin.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lstdc++: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lm: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtend.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc"
+    directories:
+      source: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj"
+      binary: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj'
+        
+        Run Build Command(s): /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_392da/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_392da.dir/build.make CMakeFiles/cmTC_392da.dir/build
+        gmake[1]: Entering directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj'
+        Building C object CMakeFiles/cmTC_392da.dir/testCCompiler.c.o
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux    -o CMakeFiles/cmTC_392da.dir/testCCompiler.c.o -c /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj/testCCompiler.c
+        Linking C executable cmTC_392da
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_392da.dir/link.txt --verbose=1
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux CMakeFiles/cmTC_392da.dir/testCCompiler.c.o -o cmTC_392da 
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/crt1.o: Relocations in generic ELF (EM: 62)
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/crt1.o: Relocations in generic ELF (EM: 62)
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/crt1.o: error adding symbols: file in wrong format
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_392da.dir/build.make:99: cmTC_392da] Error 1
+        gmake[1]: Leaving directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-3tEcQj'
+        gmake: *** [Makefile:127: cmTC_392da/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      1
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crt1.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crti.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtbegin.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtend.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags:  
+      
+      The output was:
+      1
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crt1.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crti.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtbegin.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lstdc++: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lm: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc_s: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find -lgcc: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtend.o: No such file or directory
+      /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ 
+      Build flags: -O2;-pipe;-g;-feliminate-unused-debug-types
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc"
+    directories:
+      source: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext"
+      binary: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext'
+        
+        Run Build Command(s): /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5978e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5978e.dir/build.make CMakeFiles/cmTC_5978e.dir/build
+        gmake[1]: Entering directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext'
+        Building C object CMakeFiles/cmTC_5978e.dir/testCCompiler.c.o
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux    -o CMakeFiles/cmTC_5978e.dir/testCCompiler.c.o -c /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext/testCCompiler.c
+        Linking C executable cmTC_5978e
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5978e.dir/link.txt --verbose=1
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux CMakeFiles/cmTC_5978e.dir/testCCompiler.c.o -o cmTC_5978e 
+        gmake[1]: Leaving directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-bn9Ext'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT"
+      binary: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT'
+        
+        Run Build Command(s): /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92463/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92463.dir/build.make CMakeFiles/cmTC_92463.dir/build
+        gmake[1]: Entering directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT'
+        Building CXX object CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux   -std=gnu++20   -v -o CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -c /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++
+        Target: aarch64-oe-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-arago-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/'
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/cc1plus -quiet -v -iprefix /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ -isysroot /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux -D_GNU_SOURCE /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_92463.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -std=gnu++20 -version -o /tmp/ccFvnwV3.s
+        GNU C++20 (GCC) version 13.3.0 (aarch64-oe-linux)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/../../../../../aarch64-oe-linux/include"
+        ignoring duplicate directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include"
+        ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/local/include"
+        ignoring duplicate directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed"
+        ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/../../../../../aarch64-oe-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/
+        End of search list.
+        Compiler executable checksum: 8000ebd8261004fd1c0ad9da74f6a481
+        COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/'
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFvnwV3.s
+        GNU assembler version 2.42.0 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.42.0.20240716
+        COMPILER_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/
+        LIBRARY_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_92463
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92463.dir/link.txt --verbose=1
+        /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux  -v CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_92463 
+        Using built-in specs.
+        COLLECT_GCC=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++
+        COLLECT_LTO_WRAPPER=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/lto-wrapper
+        Target: aarch64-oe-linux
+        Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-arago-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/
+        LIBRARY_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-v' '-o' 'cmTC_92463' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_92463.'
+         /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/collect2 -plugin /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/liblto_plugin.so -plugin-opt=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNrF37S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_92463 /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crt1.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crti.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtbegin.o -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0 -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0 -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtend.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crtn.o
+        COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-v' '-o' 'cmTC_92463' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_92463.'
+        gmake[1]: Leaving directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include]
+          add: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/]
+        end of search list found
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include]
+        collapse include dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include]
+        implicit include dirs: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92463/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_92463.dir/build.make CMakeFiles/cmTC_92463.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ti_arm/CMakeFiles/CMakeScratch/TryCompile-sAEqzT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux   -std=gnu++20   -v -o CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -c /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++]
+        ignore line: [Target: aarch64-oe-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-arago-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/']
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/cc1plus -quiet -v -iprefix /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/ -isysroot /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux -D_GNU_SOURCE /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_92463.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -std=gnu++20 -version -o /tmp/ccFvnwV3.s]
+        ignore line: [GNU C++20 (GCC) version 13.3.0 (aarch64-oe-linux)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/../../../../../aarch64-oe-linux/include"]
+        ignore line: [ignoring duplicate directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/../../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/../../../../../aarch64-oe-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/include-fixed]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/aarch64-oe-linux]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/c++/13.3.0/backward]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/include]
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/include/]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 8000ebd8261004fd1c0ad9da74f6a481]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/']
+        ignore line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFvnwV3.s]
+        ignore line: [GNU assembler version 2.42.0 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.42.0.20240716]
+        ignore line: [COMPILER_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/]
+        ignore line: [LIBRARY_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_92463]
+        ignore line: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92463.dir/link.txt --verbose=1]
+        ignore line: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux  -v CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_92463 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/lto-wrapper]
+        ignore line: [Target: aarch64-oe-linux]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-arago-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-arago-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/smpusdk-yocto-build/build/yocto-build_am62xx-lp-evm-rt/build/arago-tmp-default-glibc/work/x86_64-nativesdk-arago-linux/gcc-cross-canadian-aarch64/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/]
+        ignore line: [LIBRARY_PATH=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/:/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux' '-v' '-o' 'cmTC_92463' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_92463.']
+        link line: [ /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/collect2 -plugin /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/liblto_plugin.so -plugin-opt=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNrF37S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_92463 /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crt1.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crti.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtbegin.o -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0 -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0 -L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtend.o /home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crtn.o]
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNrF37S.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_92463] ==> ignore
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crt1.o] ==> obj [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crt1.o]
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crti.o] ==> obj [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crti.o]
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtbegin.o] ==> obj [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtbegin.o]
+          arg [-L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0] ==> dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0]
+          arg [-L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc] ==> dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc]
+          arg [-L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib] ==> dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib]
+          arg [-L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0] ==> dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0]
+          arg [-L/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib] ==> dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib]
+          arg [CMakeFiles/cmTC_92463.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtend.o] ==> obj [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtend.o]
+          arg [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crtn.o] ==> obj [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crtn.o]
+        collapse library dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0]
+        collapse library dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/bin/aarch64-oe-linux/../../lib/aarch64-oe-linux/gcc] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc]
+        collapse library dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib]
+        collapse library dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0]
+        collapse library dir [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib] ==> [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crt1.o;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crti.o;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtbegin.o;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0/crtend.o;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/crtn.o]
+        implicit dirs: [/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/13.3.0;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/aarch64-oe-linux/gcc;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/lib;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib/aarch64-oe-linux/13.3.0;/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit/sysroots/aarch64-oe-linux/usr/lib]
+        implicit fwks: []
+      
+      
+...

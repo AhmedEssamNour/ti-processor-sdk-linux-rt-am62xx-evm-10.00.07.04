@@ -1,0 +1,3 @@
+/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ubuntu/CMakeFiles/cunit_app.dir
+/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ubuntu/CMakeFiles/edit_cache.dir
+/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/apps/cunit/build/ubuntu/CMakeFiles/rebuild_cache.dir

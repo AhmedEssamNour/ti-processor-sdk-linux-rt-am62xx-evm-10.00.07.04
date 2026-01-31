@@ -1,4 +1,4 @@
-SDK_PATH="/home/aessam/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit"
+SDK_PATH="/home/aessam/repos/ti-processor-sdk-linux-rt-am62xx-evm-10.00.07.04/linux-devkit"
 if [ -z "$ZSH_NAME" ] && [ "x$0" = "x./environment-setup" ]; then
     echo "Error: This script needs to be sourced. Please run as \". ./environment-setup\""
     exit 1

@@ -1,0 +1,1 @@
+void testsuite1(void);
