@@ -1,0 +1,6 @@
+.NOTPARALLEL:
+
+### Include aaplications make files ###
+include apps/Makefile
+
+APPS_DIR_PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
