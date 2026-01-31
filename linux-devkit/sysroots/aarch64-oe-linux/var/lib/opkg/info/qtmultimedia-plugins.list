@@ -1,0 +1,16 @@
+/usr/lib/plugins/video/videonode	040755
+/usr/lib	040755
+/usr/lib/plugins/mediaservice/libgstcamerabin.so	0100755
+/usr/lib/plugins/video	040755
+/usr/lib/plugins/mediaservice	040755
+/usr/lib/plugins	040755
+/usr/lib/plugins/playlistformats	040755
+/usr/lib/plugins/mediaservice/libgstmediaplayer.so	0100755
+/usr	040755
+/usr/lib/plugins/playlistformats/libqtmultimedia_m3u.so	0100755
+/usr/lib/plugins/mediaservice/libgstmediacapture.so	0100755
+/usr/lib/plugins/audio/libqtmedia_pulse.so	0100755
+/usr/lib/plugins/mediaservice/libgstaudiodecoder.so	0100755
+/usr/lib/plugins/video/videonode/libeglvideonode.so	0100755
+/usr/lib/plugins/audio	040755
+/usr/lib/plugins/audio/libqtaudio_alsa.so	0100755

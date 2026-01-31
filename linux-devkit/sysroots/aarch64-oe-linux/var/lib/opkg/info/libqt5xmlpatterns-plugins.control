@@ -1,0 +1,13 @@
+Package: libqt5xmlpatterns-plugins
+Version: 5.15.13+git0+6e0917d518-r0.146
+Description: qtxmlpatterns version 5.15.13+git-r0
+ qtxmlpatterns version 5.15.13+git-r0.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtxmlpatterns
+Homepage: http://www.qt.io
+Provides: qtxmlpatterns-plugins
+Source: qtxmlpatterns_git.bb

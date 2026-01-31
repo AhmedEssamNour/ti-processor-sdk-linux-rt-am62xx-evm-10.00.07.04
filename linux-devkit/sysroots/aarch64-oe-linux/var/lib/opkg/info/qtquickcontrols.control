@@ -1,0 +1,12 @@
+Package: qtquickcontrols
+Version: 5.15.13+git0+77fbfa8d31-r0.150
+Description: qtquickcontrols version 5.15.13+git-r0
+ qtquickcontrols version 5.15.13+git-r0.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtquickcontrols
+Recommends: qtquickcontrols-plugins, qtquickcontrols-qmlplugins
+Source: qtquickcontrols_git.bb

@@ -1,0 +1,16 @@
+/usr/bin/rogue2d_unittest	0100755
+/usr/bin/hwperfbin2jsont	0100755
+/usr/bin/pvrhtb2txt	0100755
+/usr/bin/pvrlogdump	0100755
+/usr/bin/rgx_twiddling_test	0100755
+/usr/bin/pvrtld	0100755
+/usr/bin/rgx_compute_test	0100755
+/usr/bin/pvr_memory_test	0100755
+/usr/bin	040755
+/usr/bin/pvrdebug	0100755
+/usr/bin/rgx_triangle_test	0100755
+/usr	040755
+/usr/bin/rgx_blit_test	0100755
+/usr/bin/tqplayer	0100755
+/usr/bin/rogue2d_fbctest	0100755
+/usr/bin/pvrsrvctl	0100755

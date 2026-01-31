@@ -1,0 +1,15 @@
+Package: orc
+Version: 0.4.38-r0.3
+Description: Optimised Inner Loop Runtime Compiler
+ Optimised Inner Loop Runtime Compiler is a Library and set of tools for
+ compiling and executing SIMD assembly language-like programs that operate
+ on arrays of data.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-2-Clause & BSD-3-Clause
+Architecture: aarch64
+OE: orc
+Homepage: http://gstreamer.freedesktop.org/modules/orc.html
+Depends: libc6 (>= 2.39+git5+e8f5217097), liborc-0.4-0 (>= 0.4.38), liborc-test-0.4-0 (>= 0.4.38)
+Source: orc_0.4.38.bb

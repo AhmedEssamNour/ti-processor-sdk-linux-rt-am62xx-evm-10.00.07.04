@@ -1,0 +1,14 @@
+Package: gstreamer1.0-libav
+Version: 1.22.12-r0.99
+Description: Libav-based GStreamer 1.x plugin
+ Contains a GStreamer plugin for using the encoders, decoders, muxers, and
+ demuxers provided by FFmpeg.
+Section: multimedia
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: gstreamer1.0-libav
+Homepage: http://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.22.12), libavcodec60 (>= 6.1.1), libavfilter9 (>= 6.1.1), libavformat60 (>= 6.1.1), libavutil58 (>= 6.1.1), libc6 (>= 2.39+git5+e8f5217097), libglib-2.0-0 (>= 2.78.6), libgstaudio-1.0-0 (>= 1.22.12), libgstpbutils-1.0-0 (>= 1.22.12), libgstvideo-1.0-0 (>= 1.22.12)
+Source: gstreamer1.0-libav_1.22.12.bb

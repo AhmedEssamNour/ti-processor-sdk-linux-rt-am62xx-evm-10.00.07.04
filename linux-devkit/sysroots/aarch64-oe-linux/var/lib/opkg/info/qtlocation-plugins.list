@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/plugins	040755
+/usr/lib/plugins/position/libqtposition_positionpoll.so	0100755
+/usr	040755
+/usr/lib/plugins/position	040755
+/usr/lib/plugins/position/libqtposition_geoclue.so	0100755
+/usr/lib/plugins/position/libqtposition_geoclue2.so	0100755

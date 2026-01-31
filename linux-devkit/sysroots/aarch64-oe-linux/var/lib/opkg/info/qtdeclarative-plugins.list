@@ -1,0 +1,15 @@
+/usr/lib	040755
+/usr/lib/plugins/qmltooling/libqmldbg_server.so	0100755
+/usr/lib/plugins	040755
+/usr/lib/plugins/qmltooling/libqmldbg_debugger.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_native.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_preview.so	0100755
+/usr	040755
+/usr/lib/plugins/qmltooling	040755
+/usr/lib/plugins/qmltooling/libqmldbg_quickprofiler.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_local.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_inspector.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_profiler.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_tcp.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_nativedebugger.so	0100755
+/usr/lib/plugins/qmltooling/libqmldbg_messages.so	0100755

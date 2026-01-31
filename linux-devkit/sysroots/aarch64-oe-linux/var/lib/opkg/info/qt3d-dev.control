@@ -1,0 +1,14 @@
+Package: qt3d-dev
+Version: 5.15.13+git0+67bee4599a_8f0c6b04b2-r0.134
+Description: qt3d version 5.15.13+git-r0 - Development files
+ qt3d version 5.15.13+git-r0.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-3.0-only | GPL-2.0-only | The-Qt-Company-Commercial
+Architecture: aarch64
+OE: qt3d
+Depends: qt3d, qtbase-dev, qtdeclarative-dev
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, qt3d, qt3d-mkspecs, qt3d-qmldesigner, qtbase-dev, qtdeclarative-dev, zlib-dev
+Source: qt3d_git.bb

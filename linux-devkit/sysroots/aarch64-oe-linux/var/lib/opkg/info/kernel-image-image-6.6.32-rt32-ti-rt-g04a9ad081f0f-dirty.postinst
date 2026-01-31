@@ -1,0 +1,12 @@
+set -e
+set +e
+if [ -n "$D" ]; then
+    ln -sf Image-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty $D/boot/Image > /dev/null 2>&1
+else
+    ln -sf Image-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty boot/Image > /dev/null 2>&1
+    if [ $? -ne 0 ]; then
+        echo "Filesystem on boot/ doesn't support symlinks, falling back to copied image (Image)."
+        install -m 0644 boot/Image-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty boot/Image
+    fi
+fi
+set -e

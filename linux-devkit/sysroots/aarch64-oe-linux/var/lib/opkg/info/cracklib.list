@@ -1,0 +1,18 @@
+/usr/share/cracklib/cracklib.magic	0100644
+/usr/sbin/cracklib-packer	0100755
+/usr/lib	040755
+/usr/lib/libcrack.so.2	0120777	libcrack.so.2.9.0
+/usr/sbin	040755
+/usr/lib/libcrack.so.2.9.0	0100755
+/usr/share/cracklib/pw_dict.pwd	0100644
+/usr/share/cracklib/pw_dict.pwi	0100644
+/usr/sbin/cracklib-unpacker	0100755
+/usr/share/cracklib/cracklib-small	0100644
+/usr	040755
+/usr/share/cracklib	040755
+/usr/sbin/cracklib-update	0100755
+/usr/sbin/cracklib-format	0100755
+/usr/sbin/cracklib-check	0100755
+/usr/share	040755
+/usr/share/cracklib/pw_dict.hwm	0100644
+/usr/sbin/create-cracklib-dict	0100755

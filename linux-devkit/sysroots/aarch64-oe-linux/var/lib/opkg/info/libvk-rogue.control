@@ -1,0 +1,14 @@
+Package: libvk-rogue
+Version: 24.1.6554834-r3.1
+Description: ti-img-rogue-umlibs version 24.1.6554834-r3
+ Userspace libraries for PowerVR Rogue GPU on TI SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TFL
+Architecture: am62xx_evm
+OE: ti-img-rogue-umlibs
+Homepage: http://git.ti.com/graphics/ti-img-rogue-umlibs
+Depends: libc6 (>= 2.39+git5+e8f5217097), libdrm, ti-img-rogue-umlibs (>= 24.1.6554834), vulkan-loader, wayland
+Recommends: ti-img-rogue-umlibs
+Source: ti-img-rogue-umlibs_24.1.6554834.bb

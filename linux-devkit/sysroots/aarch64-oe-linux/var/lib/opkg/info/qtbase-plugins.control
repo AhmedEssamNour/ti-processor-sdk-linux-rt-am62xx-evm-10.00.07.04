@@ -1,0 +1,12 @@
+Package: qtbase-plugins
+Version: 5.15.13+git0+4e158f6bfa-r0.arago17.150
+Description: qtbase version 5.15.13+git-r0.arago17
+ qtbase version 5.15.13+git-r0.arago17.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtbase
+Depends: libc6 (>= 2.39+git5+e8f5217097), libdrm2 (>= 2.4.120), libegl-mesa (>= 23.2.1), libfontconfig1 (>= 2.15.0), libfreetype6 (>= 2.13.2), libgbm1 (>= 23.2.1), libgles2-mesa (>= 23.2.1), libinput10 (>= 1.25.0), libjpeg62 (>= 3.0.1), libstdc++6 (>= 13.3.0), libudev1 (>= 255.4), libxkbcommon0 (>= 1.6.0), qtbase (>= 5.15.13+git0+4e158f6bfa)
+Source: qtbase_git.bb

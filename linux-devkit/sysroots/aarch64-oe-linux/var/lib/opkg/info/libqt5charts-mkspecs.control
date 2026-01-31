@@ -1,0 +1,12 @@
+Package: libqt5charts-mkspecs
+Version: 5.15.13+git0+3f3f14d69a-r0.146
+Description: qtcharts version 5.15.13+git-r0
+ qtcharts version 5.15.13+git-r0.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Architecture: aarch64
+OE: qtcharts
+Provides: qtcharts-mkspecs
+Source: qtcharts_git.bb

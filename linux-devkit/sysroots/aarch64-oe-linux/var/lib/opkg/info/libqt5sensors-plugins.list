@@ -1,0 +1,10 @@
+/usr/lib/plugins/sensorgestures/libqtsensorgestures_plugin.so	0100755
+/usr/lib/plugins/sensorgestures	040755
+/usr/lib/plugins/sensors	040755
+/usr/lib	040755
+/usr/lib/plugins/sensors/libqtsensors_generic.so	0100755
+/usr/lib/plugins	040755
+/usr/lib/plugins/sensors/libqtsensors_linuxsys.so	0100755
+/usr/lib/plugins/sensors/libqtsensors_iio-sensor-proxy.so	0100755
+/usr	040755
+/usr/lib/plugins/sensorgestures/libqtsensorgestures_shakeplugin.so	0100755

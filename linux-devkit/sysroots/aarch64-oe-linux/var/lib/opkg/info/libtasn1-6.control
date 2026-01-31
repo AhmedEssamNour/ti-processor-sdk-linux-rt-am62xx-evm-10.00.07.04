@@ -1,0 +1,15 @@
+Package: libtasn1-6
+Version: 4.19.0-r0.3
+Description: Library for ASN.1 and DER manipulation
+ A highly portable C library that encodes and decodes DER/BER data
+ following an ASN.1 schema.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: libtasn1
+Homepage: http://www.gnu.org/software/libtasn1/
+Depends: libc6 (>= 2.39+git5+e8f5217097)
+Provides: libtasn1
+Source: libtasn1_4.19.0.bb

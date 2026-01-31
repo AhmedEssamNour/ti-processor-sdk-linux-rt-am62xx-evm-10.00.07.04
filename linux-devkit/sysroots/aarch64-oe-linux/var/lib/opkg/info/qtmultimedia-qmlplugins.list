@@ -1,0 +1,8 @@
+/usr/lib	040755
+/usr/lib/qml/QtMultimedia/plugins.qmltypes	0100644
+/usr/lib/qml/QtMultimedia	040755
+/usr/lib/qml/QtMultimedia/qmldir	0100644
+/usr	040755
+/usr/lib/qml/QtMultimedia/libdeclarative_multimedia.so	0100755
+/usr/lib/qml	040755
+/usr/lib/qml/QtMultimedia/Video.qml	0100644

@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/qml/QtCharts/libqtchartsqml2.so	0100755
+/usr/lib/qml/QtCharts/plugins.qmltypes	0100644
+/usr	040755
+/usr/lib/qml/QtCharts/qmldir	0100644
+/usr/lib/qml	040755
+/usr/lib/qml/QtCharts	040755

@@ -1,0 +1,14 @@
+Package: libqt5charts5
+Version: 5.15.13+git0+3f3f14d69a-r0.146
+Description: qtcharts version 5.15.13+git-r0
+ qtcharts version 5.15.13+git-r0.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Architecture: aarch64
+OE: qtcharts
+Depends: libc6 (>= 2.39+git5+e8f5217097), libstdc++6 (>= 13.3.0), qtbase (>= 5.15.13+git0+4e158f6bfa)
+Recommends: qtcharts-plugins, qtcharts-qmlplugins
+Provides: qtcharts
+Source: qtcharts_git.bb

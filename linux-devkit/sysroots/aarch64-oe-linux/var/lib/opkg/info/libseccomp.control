@@ -1,0 +1,14 @@
+Package: libseccomp
+Version: 2.5.5-r0.3
+Description: interface to seccomp filtering mechanism
+ The libseccomp library provides an easy to use, platform independent,
+ interface to the Linux Kernel's syscall filtering mechanism: seccomp.
+Section: security
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-only
+Architecture: aarch64
+OE: libseccomp
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libc6 (>= 2.39+git5+e8f5217097)
+Source: libseccomp_2.5.5.bb

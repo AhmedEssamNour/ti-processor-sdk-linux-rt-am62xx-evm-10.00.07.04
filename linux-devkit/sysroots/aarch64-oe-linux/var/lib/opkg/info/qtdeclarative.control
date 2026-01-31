@@ -1,0 +1,14 @@
+Package: qtdeclarative
+Version: 5.15.13+git0+6ab9856ef3-r0.tisdk1.154
+Description: qtdeclarative version 5.15.13+git-r0.tisdk1
+ qtdeclarative version 5.15.13+git-r0.tisdk1.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtdeclarative
+Homepage: http://www.qt.io
+Depends: libc6 (>= 2.39+git5+e8f5217097), libgcc1 (>= 13.3.0), libstdc++6 (>= 13.3.0), qtbase (>= 5.15.13+git0+4e158f6bfa)
+Recommends: qtdeclarative-plugins, qtdeclarative-qmlplugins
+Source: qtdeclarative_git.bb

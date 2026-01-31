@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/rustlib	040755
+/usr/lib/rustlib/aarch64-oe-linux-gnu/lib/libstd.so	0100755
+/usr/lib/rustlib/aarch64-oe-linux-gnu/lib/libtest.so	0100755
+/usr/lib/rustlib/aarch64-oe-linux-gnu	040755
+/usr	040755
+/usr/lib/rustlib/aarch64-oe-linux-gnu/lib	040755

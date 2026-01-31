@@ -1,0 +1,5 @@
+/etc/qt5/eglfs_kms_cfg.json	0100644
+/etc/profile.d	040755
+/etc	040755
+/etc/profile.d/qt_env.sh	0100644
+/etc/qt5	040755

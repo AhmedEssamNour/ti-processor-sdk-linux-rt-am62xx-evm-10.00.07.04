@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/plugins/iconengines/libqsvgicon.so	0100755
+/usr/lib/plugins/imageformats	040755
+/usr/lib/plugins	040755
+/usr/lib/plugins/imageformats/libqsvg.so	0100755
+/usr	040755
+/usr/lib/plugins/iconengines	040755

@@ -1,0 +1,16 @@
+/usr/lib/libufwriter.so	0120777	libufwriter.so.24.1.6554834
+/usr/lib/libPVRScopeServices.so	0120777	libPVRScopeServices.so.24.1.6554834
+/usr/lib	040755
+/usr/lib/libusc.so	0120777	libusc.so.24.1.6554834
+/usr/lib/libusc.so.24.1.6554834	0100644
+/usr/lib/libufwriter.so.24.1.6554834	0100644
+/usr/lib/libglslcompiler.so.24.1.6554834	0100644
+/usr/lib/libpvr_dri_support.so.24.1.6554834	0100644
+/usr/lib/libglslcompiler.so	0120777	libglslcompiler.so.24.1.6554834
+/usr	040755
+/usr/lib/libpvr_dri_support.so	0120777	libpvr_dri_support.so.24.1.6554834
+/usr/lib/libsrv_um.so	0120777	libsrv_um.so.24.1.6554834
+/usr/lib/libsrv_um.so.24.1.6554834	0100644
+/usr/lib/libPVRScopeServices.so.24.1.6554834	0100644
+/usr/lib/libsutu_display.so	0120777	libsutu_display.so.24.1.6554834
+/usr/lib/libsutu_display.so.24.1.6554834	0100644

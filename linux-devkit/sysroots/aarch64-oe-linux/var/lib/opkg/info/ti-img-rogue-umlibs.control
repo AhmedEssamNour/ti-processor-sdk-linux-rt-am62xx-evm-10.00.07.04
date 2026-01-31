@@ -1,0 +1,14 @@
+Package: ti-img-rogue-umlibs
+Version: 24.1.6554834-r3.1
+Description: ti-img-rogue-umlibs version 24.1.6554834-r3
+ Userspace libraries for PowerVR Rogue GPU on TI SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TFL
+Architecture: am62xx_evm
+OE: ti-img-rogue-umlibs
+Homepage: http://git.ti.com/graphics/ti-img-rogue-umlibs
+Depends: libc6 (>= 2.39+git5+e8f5217097), libdrm, libgcc1 (>= 13.3.0), libstdc++6 (>= 13.3.0), ti-img-rogue-driver, ti-img-rogue-umlibs-firmware
+Recommends: libgles1-rogue, libgles2-rogue, libgles3-rogue, libvk-rogue, ti-img-rogue-umlibs-tools
+Source: ti-img-rogue-umlibs_24.1.6554834.bb

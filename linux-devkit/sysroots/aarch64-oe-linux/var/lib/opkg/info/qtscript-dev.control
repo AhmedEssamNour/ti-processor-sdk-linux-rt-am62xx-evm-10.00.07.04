@@ -1,0 +1,15 @@
+Package: qtscript-dev
+Version: 5.15.13+git0+4f8c35a528-r0.144
+Description: qtscript version 5.15.13+git-r0 - Development files
+ qtscript version 5.15.13+git-r0.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtscript
+Homepage: http://www.qt.io
+Depends: qtbase-dev, qtscript
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, qtbase-dev, qtscript, qtscript-mkspecs, qtscript-qmldesigner
+Source: qtscript_git.bb

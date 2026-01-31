@@ -1,0 +1,45 @@
+/usr/lib/libQt5PrintSupport.so.5.15	0120777	libQt5PrintSupport.so.5.15.13
+/usr/lib/libQt5Widgets.so.5.15	0120777	libQt5Widgets.so.5.15.13
+/usr/lib/libQt5PrintSupport.so.5.15.13	0100755
+/usr/lib/metatypes/qt5widgets_metatypes.json	0100644
+/usr/lib/libQt5Test.so.5.15	0120777	libQt5Test.so.5.15.13
+/usr/lib/libQt5Concurrent.so.5	0120777	libQt5Concurrent.so.5.15.13
+/usr/lib	040755
+/usr/lib/libQt5OpenGL.so.5	0120777	libQt5OpenGL.so.5.15.13
+/usr/lib/libQt5Test.so.5.15.13	0100755
+/usr/lib/libQt5Gui.so.5	0120777	libQt5Gui.so.5.15.13
+/usr/lib/libQt5Core.so.5.15.13	0100755
+/usr/lib/libQt5EglFSDeviceIntegration.so.5.15	0120777	libQt5EglFSDeviceIntegration.so.5.15.13
+/usr/lib/libQt5Core.so.5	0120777	libQt5Core.so.5.15.13
+/usr/lib/libQt5Widgets.so.5.15.13	0100755
+/usr/lib/libQt5Sql.so.5.15	0120777	libQt5Sql.so.5.15.13
+/usr/lib/libQt5DBus.so.5.15.13	0100755
+/usr/lib/libQt5Core.so.5.15	0120777	libQt5Core.so.5.15.13
+/usr/lib/libQt5OpenGL.so.5.15.13	0100755
+/usr/lib/libQt5EglFsKmsSupport.so.5.15	0120777	libQt5EglFsKmsSupport.so.5.15.13
+/usr/lib/metatypes/qt5core_metatypes.json	0100644
+/usr/lib/libQt5DBus.so.5	0120777	libQt5DBus.so.5.15.13
+/usr/lib/libQt5Xml.so.5.15.13	0100755
+/usr/lib/libQt5Network.so.5	0120777	libQt5Network.so.5.15.13
+/usr/lib/libQt5Gui.so.5.15.13	0100755
+/usr/lib/metatypes/qt5gui_metatypes.json	0100644
+/usr/lib/libQt5Network.so.5.15	0120777	libQt5Network.so.5.15.13
+/usr/lib/libQt5EglFSDeviceIntegration.so.5	0120777	libQt5EglFSDeviceIntegration.so.5.15.13
+/usr/lib/libQt5Network.so.5.15.13	0100755
+/usr/lib/libQt5Sql.so.5	0120777	libQt5Sql.so.5.15.13
+/usr	040755
+/usr/lib/libQt5Concurrent.so.5.15	0120777	libQt5Concurrent.so.5.15.13
+/usr/lib/libQt5Widgets.so.5	0120777	libQt5Widgets.so.5.15.13
+/usr/lib/libQt5Xml.so.5.15	0120777	libQt5Xml.so.5.15.13
+/usr/lib/libQt5EglFSDeviceIntegration.so.5.15.13	0100755
+/usr/lib/libQt5EglFsKmsSupport.so.5.15.13	0100755
+/usr/lib/libQt5EglFsKmsSupport.so.5	0120777	libQt5EglFsKmsSupport.so.5.15.13
+/usr/lib/libQt5OpenGL.so.5.15	0120777	libQt5OpenGL.so.5.15.13
+/usr/lib/libQt5Sql.so.5.15.13	0100755
+/usr/lib/metatypes	040755
+/usr/lib/libQt5Test.so.5	0120777	libQt5Test.so.5.15.13
+/usr/lib/libQt5PrintSupport.so.5	0120777	libQt5PrintSupport.so.5.15.13
+/usr/lib/libQt5Gui.so.5.15	0120777	libQt5Gui.so.5.15.13
+/usr/lib/libQt5DBus.so.5.15	0120777	libQt5DBus.so.5.15.13
+/usr/lib/libQt5Xml.so.5	0120777	libQt5Xml.so.5.15.13
+/usr/lib/libQt5Concurrent.so.5.15.13	0100755

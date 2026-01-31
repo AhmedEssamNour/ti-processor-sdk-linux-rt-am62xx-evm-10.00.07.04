@@ -1,0 +1,14 @@
+Package: ti-img-rogue-driver
+Version: 24.1.6554834-r0.136
+Description: ti-img-rogue-driver version 24.1.6554834-r0
+ Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT | GPL-2.0-only
+Architecture: am62xx_evm
+OE: ti-img-rogue-driver
+Homepage: http://git.ti.com/graphics/ti-img-rogue-driver
+Depends: kernel-module-pvrsrvkm-6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty
+Recommends: ti-img-rogue-umlibs
+Source: ti-img-rogue-driver_24.1.6554834.bb

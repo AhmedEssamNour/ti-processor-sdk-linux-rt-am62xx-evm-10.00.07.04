@@ -1,0 +1,10 @@
+/usr/lib/mkspecs/modules	040755
+/usr/lib	040755
+/usr/lib/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_multimediawidgets_private.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_multimedia_private.pri	0100644
+/usr	040755
+/usr/lib/mkspecs	040755
+/usr/lib/mkspecs/modules/qt_lib_multimediagsttools_private.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_multimedia.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_multimediawidgets.pri	0100644

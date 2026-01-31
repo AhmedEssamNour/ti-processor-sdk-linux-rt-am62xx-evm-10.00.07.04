@@ -1,0 +1,14 @@
+Package: qtbase-conf-dev
+Version: 1.0-r0.1
+Description: qtbase configuration files - Development files
+ qtbase configuration files.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62xx_evm
+OE: qtbase-conf
+Homepage: http://www.qt.io/
+Recommends: qtbase-conf (= 1.0-r0.1)
+Source: qtbase-conf_1.0.bb

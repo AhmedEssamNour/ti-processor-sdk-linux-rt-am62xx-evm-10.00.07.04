@@ -1,0 +1,9 @@
+/usr/share/vulkan/icd.d/powervr_icd.json	0100644
+/usr/lib	040755
+/usr/lib/libVK_IMG.so.1	0120777	libVK_IMG.so.24.1.6554834
+/usr/lib/libVK_IMG.so	0120777	libVK_IMG.so.24.1.6554834
+/usr	040755
+/usr/share/vulkan/icd.d	040755
+/usr/lib/libVK_IMG.so.24.1.6554834	0100644
+/usr/share/vulkan	040755
+/usr/share	040755

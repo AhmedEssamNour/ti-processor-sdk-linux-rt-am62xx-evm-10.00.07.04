@@ -1,0 +1,15 @@
+Package: cracklib-dev
+Version: 2.9.11-r0.5
+Description: Password strength checker library - Development files
+ Password strength checker library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL-2.1-or-later
+Architecture: aarch64
+OE: cracklib
+Homepage: https://github.com/cracklib/cracklib
+Depends: cracklib
+Recommends: cracklib (= 2.9.11-r0.5), glibc-dev, zlib-dev
+Source: cracklib_2.9.11.bb

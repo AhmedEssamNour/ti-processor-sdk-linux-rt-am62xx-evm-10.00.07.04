@@ -1,0 +1,12 @@
+Package: weston-init
+Version: 1.0-r0.arago12_tisdk_0.6
+Description: Startup script and systemd unit file for the Weston Wayland compositor
+ Startup script and systemd unit file for the Weston Wayland compositor.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am62xx_evm
+OE: weston-init
+Depends: base-files, base-passwd, kbd, shadow, weston
+Source: weston-init.bb

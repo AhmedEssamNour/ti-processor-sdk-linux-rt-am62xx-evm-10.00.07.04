@@ -1,0 +1,15 @@
+Package: libqt5charts-dev
+Version: 5.15.13+git0+3f3f14d69a-r0.146
+Description: qtcharts version 5.15.13+git-r0 - Development files
+ qtcharts version 5.15.13+git-r0.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Architecture: aarch64
+OE: qtcharts
+Depends: qtbase-dev, qtcharts
+Recommends: glibc-dev, libstdc++-dev, qtbase-dev, qtcharts, qtcharts-mkspecs, qtcharts-qmldesigner, qtdeclarative-dev, qtmultimedia-dev
+Provides: qtcharts-dev
+Source: qtcharts_git.bb

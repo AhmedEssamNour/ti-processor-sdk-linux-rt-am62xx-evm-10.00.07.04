@@ -1,0 +1,15 @@
+Package: qtmultimedia-dev
+Version: 5.15.13+git0+374d71e29a-r0.147
+Description: qtmultimedia version 5.15.13+git-r0 - Development files
+ qtmultimedia version 5.15.13+git-r0.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Architecture: aarch64
+OE: qtmultimedia
+Depends: qtbase-dev, qtmultimedia
+Recommends: alsa-lib-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-base-dev, libegl-mesa-dev, libgles2-mesa-dev, libgstapp-1.0-dev, libgstaudio-1.0-dev, libgstgl-1.0-dev, libgstpbutils-1.0-dev, libgstphotography-1.0-dev, libgstvideo-1.0-dev, libpulse-dev, libstdc++-dev, pulseaudio-dev, qtbase-dev, qtdeclarative-dev, qtmultimedia, qtmultimedia-mkspecs, qtmultimedia-qmldesigner
+Source: qtmultimedia_git.bb

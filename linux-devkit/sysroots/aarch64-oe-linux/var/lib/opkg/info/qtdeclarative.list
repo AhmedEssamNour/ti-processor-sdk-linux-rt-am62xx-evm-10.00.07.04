@@ -1,0 +1,34 @@
+/usr/lib/metatypes/qt5qmlmodels_metatypes.json	0100644
+/usr/lib/libQt5Quick.so.5	0120777	libQt5Quick.so.5.15.13
+/usr/lib/metatypes/qt5quick_metatypes.json	0100644
+/usr/lib/libQt5QmlModels.so.5.15.13	0100755
+/usr/lib/libQt5QuickTest.so.5.15.13	0100755
+/usr/lib	040755
+/usr/lib/libQt5QmlWorkerScript.so.5.15.13	0100755
+/usr/lib/libQt5QmlWorkerScript.so.5	0120777	libQt5QmlWorkerScript.so.5.15.13
+/usr/lib/libQt5QuickShapes.so.5.15.13	0100755
+/usr/lib/libQt5QmlModels.so.5	0120777	libQt5QmlModels.so.5.15.13
+/usr/lib/metatypes/qt5qml_metatypes.json	0100644
+/usr/lib/metatypes/qt5qmlworkerscript_metatypes.json	0100644
+/usr/lib/libQt5QuickTest.so.5.15	0120777	libQt5QuickTest.so.5.15.13
+/usr/lib/libQt5Qml.so.5	0120777	libQt5Qml.so.5.15.13
+/usr/lib/libQt5QuickTest.so.5	0120777	libQt5QuickTest.so.5.15.13
+/usr/lib/libQt5QuickParticles.so.5.15	0120777	libQt5QuickParticles.so.5.15.13
+/usr/lib/libQt5Qml.so.5.15	0120777	libQt5Qml.so.5.15.13
+/usr/lib/libQt5Qml.so.5.15.13	0100755
+/usr	040755
+/usr/lib/libQt5QuickShapes.so.5	0120777	libQt5QuickShapes.so.5.15.13
+/usr/lib/libQt5QmlModels.so.5.15	0120777	libQt5QmlModels.so.5.15.13
+/usr/lib/libQt5QmlWorkerScript.so.5.15	0120777	libQt5QmlWorkerScript.so.5.15.13
+/usr/lib/metatypes/qt5quickshapes_metatypes.json	0100644
+/usr/lib/metatypes/qt5quickparticles_metatypes.json	0100644
+/usr/lib/libQt5Quick.so.5.15.13	0100755
+/usr/lib/metatypes	040755
+/usr/lib/libQt5QuickParticles.so.5	0120777	libQt5QuickParticles.so.5.15.13
+/usr/lib/libQt5QuickWidgets.so.5	0120777	libQt5QuickWidgets.so.5.15.13
+/usr/lib/metatypes/qt5quicktest_metatypes.json	0100644
+/usr/lib/libQt5QuickParticles.so.5.15.13	0100755
+/usr/lib/libQt5QuickWidgets.so.5.15.13	0100755
+/usr/lib/libQt5QuickWidgets.so.5.15	0120777	libQt5QuickWidgets.so.5.15.13
+/usr/lib/libQt5Quick.so.5.15	0120777	libQt5Quick.so.5.15.13
+/usr/lib/libQt5QuickShapes.so.5.15	0120777	libQt5QuickShapes.so.5.15.13

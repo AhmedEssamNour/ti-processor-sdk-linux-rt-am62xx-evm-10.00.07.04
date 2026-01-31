@@ -1,0 +1,11 @@
+/usr/lib/qml/QtLocation/plugins.qmltypes	0100644
+/usr/lib	040755
+/usr/lib/qml/QtLocation/libdeclarative_location.so	0100755
+/usr/lib/qml/QtPositioning/qmldir	0100644
+/usr/lib/qml/QtPositioning	040755
+/usr	040755
+/usr/lib/qml/QtPositioning/plugins.qmltypes	0100644
+/usr/lib/qml/QtLocation	040755
+/usr/lib/qml	040755
+/usr/lib/qml/QtPositioning/libdeclarative_positioning.so	0100755
+/usr/lib/qml/QtLocation/qmldir	0100644

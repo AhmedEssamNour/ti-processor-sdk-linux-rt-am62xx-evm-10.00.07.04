@@ -1,0 +1,10 @@
+/usr/lib/mkspecs/modules/qt_lib_positioning.pri	0100644
+/usr/lib/mkspecs/modules	040755
+/usr/lib	040755
+/usr/lib/mkspecs/modules/qt_lib_location.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_positioningquick.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_location_private.pri	0100644
+/usr/lib/mkspecs/modules/qt_lib_positioningquick_private.pri	0100644
+/usr	040755
+/usr/lib/mkspecs	040755
+/usr/lib/mkspecs/modules/qt_lib_positioning_private.pri	0100644

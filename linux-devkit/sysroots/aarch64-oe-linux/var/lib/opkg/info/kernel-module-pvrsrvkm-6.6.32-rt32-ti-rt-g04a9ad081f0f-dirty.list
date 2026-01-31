@@ -1,0 +1,6 @@
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/updates	040755
+/usr/lib	040755
+/usr/lib/modules	040755
+/usr/lib/modules/6.6.32-rt32-ti-rt-g04a9ad081f0f-dirty/updates/pvrsrvkm.ko	0100644
+/usr	040755
